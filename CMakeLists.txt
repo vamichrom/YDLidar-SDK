@@ -16,8 +16,8 @@ ELSE()
 	SET(CMAKE_MRPT_WORD_SIZE 32)
 ENDIF()
 ##################################################
-# Add c++11 Flag
-SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+# Add c++14 Flag
+SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
 ##########################################################
 IF (CMAKE_SYSTEM_NAME MATCHES "Linux")

@@ -30,6 +30,7 @@
 
 # IDE
 .vscode/*
+build/*
 CMakeLists.txt.*
 build/cmake_install.cmake
 build/cmake_uninstall.cmake
